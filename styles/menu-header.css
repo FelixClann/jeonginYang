@@ -1,0 +1,49 @@
+@media only screen and (min-width : 320px) {
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F7D794;
+}
+/* nav > .btn {
+    display: flex;
+    justify-content: space-around;
+} */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #F7D794;
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+}
+.container-card > .title {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    background-color: #F7D794;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.image > img {
+    height: 15em;
+}
+.menu-icons {
+    display: flex;
+    align-self: center;
+    margin: 4em;
+    /* flex-direction: column; */
+
+}
+.menu-icons > img {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 3em;
+    width: 3em;
+}
+
+    }
